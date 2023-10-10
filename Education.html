@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        body{
+            background-color: pink;
+        }
+    .logo{
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #222f3e;
+    font-family: 'Kalam', cursive;
+ }
+   .a{
+    align-items:center;
+    
+ }
+    #shiv{
+   width: 400px;
+   box-shadow: 5px 7px 5px orangered ;
+   height: 500px;
+   position: absolute;
+   right: 7%;
+   top: 50px;
+   z-index:-1;
+
+ }
+
+    #shivanya{
+            box-shadow: 5px 7px 5px orangered ;
+            border-radius: 50px;
+            transition-duration: 5s;
+            top:100px;
+            left: 6%;
+            width: 200px;
+            height: 400px;
+            position: absolute;
+
+        }
+        footer{
+  background:pink;
+  color: black;
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-family: 'kalam',cursive;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class ="logo animate__animated animate__swing animate__delay-1s">Education Details:</div>
+
+            <table border="1" align="center" bgcolor="white"   border-color="solid red">
+                <tr>
+                    <h2 style=background-color:red;>
+                    <th>Sr No</th>
+                    <th>Qualification</th>
+                    <th>Institute</th>
+                    <th>Univercity</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                    </h2>
+                </tr>
+        
+                <tr>
+                    <th>1</th>
+                    <td>BSc(ECS)</td>
+                    <td>KBP Mahavidyalaya, Pandharpur</td>
+                    <td>Solapur</td>
+                    <td>67.04%</td>
+                    <td>2022-23</td>
+                </tr>
+        
+                <tr>
+                    <th>2</th>
+                    <td>HSC</td>
+                    <td>Mahatma Phule Vidyalya &jr.College,Warvade</td>
+                    <td>Pune</td>
+                    <td>67%</td>
+                    <td>2019-20</td>
+                </tr>
+        
+                <tr>
+                    <th>3</th>
+                    <td>SSC</td>
+                    <td>Mahatma Phule Vidyalya &jr.College,Warvade</td>
+                    <td>Pune</td>
+                    <td>83.80%</td>
+                    <td>2017-18</td>
+                </tr>
+            </table>
+        
+            <div class="a">
+            <h2>Programming Languages:</h2>
+                <ul style="list-style-type: circle;">
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Web</li>
+                </ul>
+            </div>
+        
+            <div class="b">
+                <h2>Web Designing Languages:</h2>
+                <ul style="list-style-type: disc;">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+        
+                <h2>Hobbies:</h2>
+                <div class="c">
+                <ul style="list-style-type: square;">
+                    <li>Tree Plantation</li>
+                    <li>Adventure</li>
+                    <li>Visiting Forts</li>
+                    <li>Waching Horror Movies</li>
+                </ul>
+                </div>
+                <img src="images/com edu.1.jpg" id="shiv">
+                
+<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="images/lp-img.jpg"
+               alt="image" id="shivanya" width="40" height="40"  top:70px
+               left:10%;>
+
+               <script>
+                function bigImg(x){
+                    x.style.height="600px";
+                    x.style.width="500px";
+                }
+        
+                function normalImg(x){
+                    x.style.height="40px";
+                    x.style.width="40px";
+
+                }
+                </script>
+            </nav>
+           
+
+</body>
+</html>

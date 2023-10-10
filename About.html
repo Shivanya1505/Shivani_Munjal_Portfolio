@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:pink;
+ }
+      #header{
+ width: 100%;
+    height: 100vh;
+    position: relative;
+      }
+
+        #logo{
+    letter-spacing: 5px;
+    max-width: 500px;
+   position: absolute;
+   top: 30%;
+   left: 10%;
+   font-size: 3em;
+   color: #222f3e;
+   font-family: 'Kalam', cursive;
+   font-size: 50px; 
+   margin-top: -70px; 
+
+ }
+    
+
+ nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    font-family:'Poppins', sans-serif;
+    position: absolute;
+    
+ }
+    #bio{
+        cursor: pointer;
+        padding: 150px 70px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        font-family: 'Poppins', sans-serif;
+        right: 50%;
+       }
+  
+       
+       .rightbio{
+        flex-basis: 60%;
+        
+  
+       }
+       .leftbio{
+        margin-top: 70px;
+       }
+       .leftbio img{
+        width: 100%;
+        height: 700px;
+        border-radius: 8px;
+       }
+       .rightbio{
+        text-align: right;
+        padding: 0 40px;
+       }
+       .rightbio p{
+        margin: 15px ;
+        line-height: 2.5rem;
+        
+       }
+  
+       .rightbio h1{
+        font-size: 3 rem;
+       }
+       .info{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        text-align: left;
+       }
+       .info p:hover{
+        background:white;
+        border-radius: 8px;
+       }
+
+       #shiv{
+   width: 300px;
+   height: 600px;
+   position: absolute;
+   left: 70%;
+   top: 5px;
+   z-index:-1;
+ }
+       </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo animate__animated animate__swing animate__delay-1s" style="font-size: 50px; margin-top: -70px; font-family: 'Kalam', cursive;">ABOUT</div>
+        <section id="bio">
+            <div class="rightbio" style="margin-bottom: -70px; right: 10%;">
+    
+                <div>
+                    <p>MY BIOGRAPHY</p>
+                    <h1>Web Developer Based on html css & javascript</h1>
+                    <p>
+                        Helo...gysss my name is Shivani Munjal.I am an enthusiastic,self-motivated,
+                        reliable,responsible and hard working person.</p>
+                        <hr>
+             </div>
+             
+             <div class="info">
+                <div>
+                    <p><b>Name:</b>Shivani Munjal</p>
+                    <p><b>Email:</b>shivanimunjal2000@gmail.com</p>
+                </div>
+                <div>
+                    <p><b>From:</b>Warvade,India</p>
+                    <p><b>Phone:</b>+91 9067504776</p>
+                </div>
+             </div>
+             <img src="images/shivani-removebg-preview.png" id="shiv" class="animate__animated animate__slideInLeft animate__delay-1s">
+             <div class="box" class="animate__animated animate__slideOutDown"></div>
+            </nav>
+            </header>
+</body>
+</html>
